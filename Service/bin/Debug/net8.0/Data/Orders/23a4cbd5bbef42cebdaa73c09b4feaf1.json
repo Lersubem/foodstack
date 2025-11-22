@@ -1,0 +1,17 @@
+{
+  "orderID": "23a4cbd5bbef42cebdaa73c09b4feaf1",
+  "orderTime": "2025-11-22T09:08:11.8556827+00:00",
+  "request": {
+    "requestID": "1763802491279-122146",
+    "meals": [
+      {
+        "id": "burger-96781",
+        "quantity": 1
+      },
+      {
+        "id": "burger-96779",
+        "quantity": 1
+      }
+    ]
+  }
+}

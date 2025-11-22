@@ -1,0 +1,545 @@
+@use "sass:map";
+
+$config-color-basic-s: 100;
+$config-color-basic-l: 50;
+
+//@ Red
+$config-color-red-h: 0;
+
+//@ Orange
+$config-color-orange-h: 30;
+
+//@ Gold
+$config-color-gold-h: 50;
+
+//@ Yellow
+$config-color-yellow-h: 60;
+
+//@ Green
+$config-color-green-h: 120;
+
+//@ Blue
+$config-color-blue-h: 240;
+
+//@ Purple
+$config-color-purple-h: 300;
+
+//@ Pink
+$config-color-pink-h: 350;
+
+//* ====---
+//* Compund
+//*=-
+
+//@ Brown
+$config-color-brown-h: 30;
+$config-color-brown-s: 60;
+$config-color-brown-l: 40;
+
+//@ Tan
+$config-color-tan-h: 34;
+$config-color-tan-s: 43;
+$config-color-tan-l: 68;
+
+//@ Bronze
+$config-color-bronze-h: 25;
+$config-color-bronze-s: 68;
+$config-color-bronze-l: 45;
+
+//* ====---
+//* Greyscale
+//*=-
+
+$config-color-greyscale-h: 0;
+$config-color-greyscale-s: 0;
+
+//@ Pureblack
+$config-color-pureblack-l: 0;
+
+//@ Black
+$config-color-black-l: 5;
+
+//@ Smokewhite
+$config-color-smokeblack-l: 10;
+
+//@ Dark
+$config-color-dark-l: 15;
+
+//@ Deep
+$config-color-deep-l: 25;
+
+//@ grey/Grey
+$config-color-grey-l: 50;
+
+//@ Silver
+$config-color-silver-l: 75;
+
+//@ Light
+$config-color-light-l: 85;
+
+//@ Smokewhite
+$config-color-smokewhite-l: 90;
+
+//@ White
+$config-color-white-l: 95;
+
+//@ PureWhite
+$config-color-purewhite-l: 100;
+
+//Primary
+$color-holder-accent: (
+    h: var(--color-holder-accent-h),
+    s: var(--color-holder-accent-s),
+    l: var(--color-holder-accent-l),
+    a: 1
+);
+$color-accent: (
+    h: var(--color-accent-h),
+    s: var(--color-accent-s),
+    l: var(--color-accent-l),
+    a: 1
+);
+//Secondary
+$color-holder-highlight: (
+    h: var(--color-holder-highlight-h),
+    s: var(--color-holder-highlight-s),
+    l: var(--color-holder-highlight-l),
+    a: 1
+);
+$color-highlight: (
+    h: var(--color-highlight-h),
+    s: var(--color-highlight-s),
+    l: var(--color-highlight-l),
+    a: 1
+);
+//Tertiary
+$color-holder-background: (
+    h: var(--color-holder-background-h),
+    s: var(--color-holder-background-s),
+    l: var(--color-holder-background-l),
+    a: 1
+);
+$color-background: (
+    h: var(--color-background-h),
+    s: var(--color-background-s),
+    l: var(--color-background-l),
+    a: 1
+);
+//Quaternary
+$color-holder-foreground: (
+    h: var(--color-holder-foreground-h),
+    s: var(--color-holder-foreground-s),
+    l: var(--color-holder-foreground-l),
+    a: 1
+);
+$color-foreground: (
+    h: var(--color-foreground-h),
+    s: var(--color-foreground-s),
+    l: var(--color-foreground-l),
+    a: 1
+);
+
+
+//Red
+$color-red: (
+    h: var(--color-red-h),
+    s: var(--color-red-s),
+    l: var(--color-red-l),
+    a: 1
+);
+
+//Orange
+$color-orange: (
+    h: var(--color-orange-h),
+    s: var(--color-orange-s),
+    l: var(--color-orange-l),
+    a: 1
+);
+
+//Gold
+$color-gold: (
+    h: var(--color-gold-h),
+    s: var(--color-gold-s),
+    l: var(--color-gold-l),
+    a: 1
+);
+
+//Yellow
+$color-yellow: (
+    h: var(--color-yellow-h),
+    s: var(--color-yellow-s),
+    l: var(--color-yellow-l),
+    a: 1
+);
+
+//Green
+$color-green: (
+    h: var(--color-green-h),
+    s: var(--color-green-s),
+    l: var(--color-green-l),
+    a: 1
+);
+
+//Blue
+$color-blue: (
+    h: var(--color-blue-h),
+    s: var(--color-blue-s),
+    l: var(--color-blue-l),
+    a: 1
+);
+
+//Purple
+$color-purple: (
+    h: var(--color-purple-h),
+    s: var(--color-purple-s),
+    l: var(--color-purple-l),
+    a: 1
+);
+
+//Pink
+$color-pink: (
+    h: var(--color-pink-h),
+    s: var(--color-pink-s),
+    l: var(--color-pink-l),
+    a: 1
+);
+
+//-
+////Compound
+//-
+
+// Bronze
+$color-bronze: (
+    h: var(--color-bronze-h),
+    s: var(--color-bronze-s),
+    l: var(--color-bronze-l),
+    a: 1
+);
+
+// Tan
+$color-tan: (
+    h: var(--color-tan-h),
+    s: var(--color-tan-s),
+    l: var(--color-tan-l),
+    a: 1
+);
+
+// Brown
+$color-brown: (
+    h: var(--color-brown-h),
+    s: var(--color-brown-s),
+    l: var(--color-brown-l),
+    a: 1
+);
+
+//-
+////Greyscale
+//-
+
+$color-pureblack: (
+    h: var(--color-pureblack-h),
+    s: var(--color-pureblack-s),
+    l: var(--color-pureblack-l),
+    a: 1
+);
+$color-black: (
+    h: var(--color-black-h),
+    s: var(--color-black-s),
+    l: var(--color-black-l),
+    a: 1
+);
+$color-smokeblack: (
+    h: var(--color-smokeblack-h),
+    s: var(--color-smokeblack-s),
+    l: var(--color-smokeblack-l),
+    a: 1
+);
+$color-dark: (
+    h: var(--color-dark-h),
+    s: var(--color-dark-s),
+    l: var(--color-dark-l),
+    a: 1
+);
+$color-deep: (
+    h: var(--color-deep-h),
+    s: var(--color-deep-s),
+    l: var(--color-deep-l),
+    a: 1
+);
+$color-grey: (
+    h: var(--color-grey-h),
+    s: var(--color-grey-s),
+    l: var(--color-grey-l),
+    a: 1
+);
+$color-silver: (
+    h: var(--color-silver-h),
+    s: var(--color-silver-s),
+    l: var(--color-silver-l),
+    a: 1
+);
+$color-light: (
+    h: var(--color-light-h),
+    s: var(--color-light-s),
+    l: var(--color-light-l),
+    a: 1
+);
+$color-smokewhite: (
+    h: var(--color-smokewhite-h),
+    s: var(--color-smokewhite-s),
+    l: var(--color-smokewhite-l),
+    a: 1
+);
+$color-white: (
+    h: var(--color-white-h),
+    s: var(--color-white-s),
+    l: var(--color-white-l),
+    a: 1
+);
+$color-purewhite: (
+    h: var(--color-purewhite-h),
+    s: var(--color-purewhite-s),
+    l: var(--color-purewhite-l),
+    a: 1
+);
+
+//* =====------
+//$ Color Maps: projecting as css hsla value
+//* =====------
+
+@function colmap-hsla($color) {
+    @return hsla(map.get($color, h), calc(map.get($color, s) * 1%), calc(map.get($color, l) * 1%), map.get($color, a));
+}
+@function colmap-h($color) {
+    @return map.get($color, h);
+}
+@function colmap-s($color) {
+    @return map.get($color, s);
+}
+@function colmap-l($color) {
+    @return map.get($color, l);
+}
+@function colmap-a($color) {
+    @return map.get($color, a);
+}
+
+//* =====------
+//$ Color Maps: colmap-transform
+//* =====------
+
+@function colmap-transform($color, $h-value: -1, $s-value: -1, $l-value: -1, $a-value: -1) {
+    @if (type-of($h-value)==number) {
+        @if ($h-value < 0) {
+            $h-value: map.get($color, h)
+        }
+    }
+
+    @if (type-of($s-value)==number) {
+        @if ($s-value < 0) {
+            $s-value: map.get($color, s)
+        }
+    }
+
+    @if (type-of($l-value)==number) {
+        @if ($l-value < 0) {
+            $l-value: map.get($color, l)
+        }
+    }
+
+    @if (type-of($a-value)==number) {
+        @if ($a-value < 0) {
+            $a-value: map.get($color, a)
+        }
+    }
+
+    @return (
+        h: $h-value,
+        s: $s-value,
+        l: $l-value,
+        a: $a-value
+    );
+}
+
+@function colmap-transform-hue($color, $h-value: map.get($color, h)) {
+    @return (
+        h: $h-value,
+        s: map.get($color, s),
+        l: map.get($color, l),
+        a: map.get($color, a),
+    );
+}
+
+@function colmap-transform-saturation($color, $s-value: map.get($color, s)) {
+    @return (
+        h: map.get($color, h),
+        s: $s-value,
+        l: map.get($color, l),
+        a: map.get($color, a),
+    );
+}
+
+@function colmap-transform-lightness($color, $l-value: map.get($color, l)) {
+    @return (
+        h: map.get($color, h),
+        s: map.get($color, s),
+        l: $l-value,
+        a: map.get($color, a),
+    );
+
+}
+
+@function colmap-transform-alpha($color, $a-value: -1) {
+    @if ($a-value < 0) {
+        $a-value: map.get($color, a)
+    }
+
+    @return (
+        h: map.get($color, h),
+        s: map.get($color, s),
+        l: map.get($color, l),
+        a: $a-value );
+}
+
+@function colmap-transform-foreground($background, $contrast-threshold, $foreground: $background) {
+    /* Calculate the lightness:
+       1. Take the 1/x function
+       2. Turn it upside down: -1/x
+       2. Adjust it to the x and y axis, but avoid -Infinity being hit,
+          since it tends to act funny when used in further calculations
+          (make sure the input lightness value is rounded to at most 2 decimal points):
+           -1/(x-49.999)+x
+       3. Make it less curved, so the y-axis makes sense between 0 and 100:
+          -2500/(x-49.999)+x
+       4. Adjust the curve with the contrast threshold,
+          but make sure we're never multiplying by 0: (-2500*(c/100+1))/(x-49.999)+x
+    */
+    @return colmap-transform-lightness($foreground, calc((-2500 * ($contrast-threshold / 100 + 1)) / (map.get($background, l) - 49.999) + map.get($background, l))
+);
+}
+
+//* =====------
+//$ Color Maps: colmap-threshold
+//* =====------
+
+@function colmap-threshold($color, $h-threshold: 0, $s-threshold: 0, $l-threshold: 0, $a-threshold: 0) {
+    @return (
+        h: calc(map.get($color, h) + $h-threshold),
+        s: calc(map.get($color, s) + $s-threshold),
+        l: calc(map.get($color, l) + $l-threshold),
+        a: calc(map.get($color, a) + $a-threshold)
+    );
+}
+
+@function colmap-threshold-hue($color, $h-threshold: 0) {
+    @return (
+        h: calc(map.get($color, h) + $h-threshold),
+        s: map.get($color, s),
+        l: map.get($color, l),
+        a: map.get($color, a)
+    );
+}
+
+@function colmap-threshold-saturation($color, $s-threshold: 0) {
+    @return (
+        h: map.get($color, h),
+        s: calc(map.get($color, s) + $s-threshold),
+        l: map.get($color, l),
+        a: map.get($color, a)
+    );
+}
+
+@function colmap-threshold-lightness($color, $l-threshold: 0) {
+    @return (
+        h: map.get($color, h),
+        s: map.get($color, s),
+        l: calc(map.get($color, l) + $l-threshold),
+        a: map.get($color, a)
+    );
+}
+
+@function colmap-threshold-alpha($color, $a-threshold: 0) {
+    @return (
+        h: map.get($color, h),
+        s: map.get($color, s),
+        l: map.get($color, l),
+        a: calc(map.get($color, a) + $a-threshold)
+    );
+}
+
+//* =====------
+//$ Color Maps: colmap-ratio
+//* =====------
+
+@function colmap-ratio($color, $h-ratio: 0, $s-ratio: 0, $l-ratio: 0, $a-ratio: 0) {
+    @return (
+        h: calc(map.get($color, h) * $h-ratio),
+        s: calc(map.get($color, s) * $s-ratio),
+        l: calc(map.get($color, l) * $l-ratio),
+        a: calc(map.get($color, a) * $a-ratio)
+    );
+}
+
+@function colmap-ratio-hue($color, $h-ratio: 0) {
+    @return (
+        h: calc(map.get($color, h) * $h-ratio),
+        s: map.get($color, s),
+        l: map.get($color, l),
+        a: map.get($color, a)
+    );
+}
+
+@function colmap-ratio-saturation($color, $s-ratio: 0) {
+    @return (
+        h: map.get($color, h),
+        s: calc(map.get($color, s) * $s-ratio),
+        l: map.get($color, l),
+        a: map.get($color, a)
+    );
+}
+
+@function colmap-ratio-lightness($color, $l-ratio: 0) {
+    @return (
+        h: map.get($color, h),
+        s: map.get($color, s),
+        l: calc(map.get($color, l) * $l-ratio),
+        a: map.get($color, a)
+    );
+}
+
+@function colmap-ratio-alpha($color, $a-ratio: 0) {
+    @return (
+        h: map.get($color, h),
+        s: map.get($color, s),
+        l: map.get($color, l),
+        a: calc(map.get($color, a) * $a-ratio)
+    );
+}
+
+//* =====------
+//$ Helpers
+//* =====------
+
+@mixin bg-set($color) {
+    --color-background-h: #{map.get($color, h)};
+    --color-background-s: #{map.get($color, s)};
+    --color-background-l: #{map.get($color, l)};
+    background-color: colmap-hsla($color);
+
+    // &, & * {
+    //     color: colmap-hsla(colmap-transform-foreground($color, var(--palette-threshold-contrast), $color-foreground));
+    // }
+}
+@mixin bg-holder-set($color) {
+    --color-holder-background-h: #{map.get($color, h)};
+    --color-holder-background-s: #{map.get($color, s)};
+    --color-holder-background-l: #{map.get($color, l)};
+}
+
+@mixin fg-set($color) {
+    --color-foreground-h: #{map.get($color, h)};
+    --color-foreground-s: #{map.get($color, s)};
+    --color-foreground-l: #{map.get($color, l)};
+    // &, & * {
+    //     color: colmap-hsla(colmap-transform-foreground($color-background, var(--palette-threshold-contrast), $color));
+    // }
+}

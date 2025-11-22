@@ -1,0 +1,48 @@
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\FoodStack Service.exe
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\web.config
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\appsettings.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Data\Menu\baguette.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Data\Menu\burger_sandwich.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Data\Menu\doritos.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Data\Menu\falafel.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Data\Menu\mug_coffee.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Data\Menu\pasta.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Data\Menu\pizza.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Data\Menu\soup.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Data\Menu\wedding_cake.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\FoodStack Service.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\FoodStack Service.deps.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\FoodStack Service.runtimeconfig.json
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\FoodStack Service.pdb
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Configuration.Abstractions.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Configuration.Binder.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Diagnostics.Abstractions.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.FileProviders.Abstractions.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Hosting.Abstractions.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Options.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Primitives.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.AspNetCore.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.Extensions.Hosting.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.Extensions.Logging.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.Formatting.Compact.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.Settings.Configuration.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.Sinks.Console.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.Sinks.Debug.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.Sinks.File.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Serilog.Sinks.Map.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\System.IO.Pipelines.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\System.Text.Encodings.Web.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\System.Text.Json.dll
+B:\Solutions\FoodStack\service\FoodStack Service\obj\Release\net8.0\PubTmp\Out\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

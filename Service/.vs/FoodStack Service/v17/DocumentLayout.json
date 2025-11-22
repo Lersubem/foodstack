@@ -1,0 +1,531 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\diagnosis\\requestsimulationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:diagnosis\\requestsimulationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\diagnosis\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:diagnosis\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\domain\\menu\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:domain\\menu\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\start-server.cmd||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:start-server.cmd||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\domain\\order\\orderservicefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:domain\\order\\orderservicefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\domain\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:domain\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\domain\\order\\orderrequestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:domain\\order\\orderrequestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\domain\\order\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:domain\\order\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\domain\\menu\\menumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:domain\\menu\\menumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\domain\\order\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:domain\\order\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\properties\\publishprofiles\\iisprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:properties\\publishprofiles\\iisprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\foodstack service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:foodstack service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\foodstack service.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:foodstack service.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\data\\menu\\burger_sandwich.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:data\\menu\\burger_sandwich.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\domain\\menu\\menuservicefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:domain\\menu\\menuservicefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\domain\\menu\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:domain\\menu\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\data\\menu\\baguette.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:data\\menu\\baguette.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\data\\menu\\doritos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:data\\menu\\doritos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\data\\menu\\falafel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:data\\menu\\falafel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\data\\menu\\mug_coffee.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:data\\menu\\mug_coffee.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\data\\menu\\pasta.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:data\\menu\\pasta.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\data\\menu\\pizza.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:data\\menu\\pizza.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\data\\menu\\soup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:data\\menu\\soup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\data\\menu\\wedding_cake.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:data\\menu\\wedding_cake.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8073C0-0339-44AE-8C56-CA6352FB5681}|..\\..\\Service - Test\\FoodStack Service - Test.csproj|b:\\solutions\\foodstack\\service - test\\orderservicefiletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8073C0-0339-44AE-8C56-CA6352FB5681}|..\\..\\Service - Test\\FoodStack Service - Test.csproj|b:\\solutions\\foodstack\\service - test\\menuservicefiletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|b:\\solutions\\foodstack\\service\\foodstack service\\foodstack service.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{739CE7B7-7961-4676-BFD9-AAB147C6F024}|FoodStack Service.csproj|solutionrelative:foodstack service.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuModel.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Menu\\MenuModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Menu\\MenuModel.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Menu\\MenuModel.cs",
+              "RelativeToolTip": "Domain\\Menu\\MenuModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T17:25:27.934Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwE8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T17:07:13.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "start-server.cmd",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\start-server.cmd",
+              "RelativeDocumentMoniker": "start-server.cmd",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\start-server.cmd",
+              "RelativeToolTip": "start-server.cmd",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
+              "WhenOpened": "2025-11-18T20:09:21.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Diagnosis\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Diagnosis\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Diagnosis\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Diagnosis\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:37:12.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-18T19:10:42.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderService.cs",
+              "RelativeDocumentMoniker": "Domain\\Order\\OrderService.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderService.cs",
+              "RelativeToolTip": "Domain\\Order\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:28:33.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderServiceFile.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderServiceFile.cs",
+              "RelativeDocumentMoniker": "Domain\\Order\\OrderServiceFile.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderServiceFile.cs",
+              "RelativeToolTip": "Domain\\Order\\OrderServiceFile.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:29:10.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Order\\OrderModel.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderModel.cs",
+              "RelativeToolTip": "Domain\\Order\\OrderModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T17:26:56.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Menu\\MenuController.cs",
+              "RelativeDocumentMoniker": "Domain\\Menu\\MenuController.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Menu\\MenuController.cs",
+              "RelativeToolTip": "Domain\\Menu\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:45:55.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestSimulationMiddleware.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Diagnosis\\RequestSimulationMiddleware.cs",
+              "RelativeDocumentMoniker": "Diagnosis\\RequestSimulationMiddleware.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Diagnosis\\RequestSimulationMiddleware.cs",
+              "RelativeToolTip": "Diagnosis\\RequestSimulationMiddleware.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T09:07:21.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderRequestResult.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderRequestResult.cs",
+              "RelativeDocumentMoniker": "Domain\\Order\\OrderRequestResult.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderRequestResult.cs",
+              "RelativeToolTip": "Domain\\Order\\OrderRequestResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:30:07.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "pasta.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\pasta.json",
+              "RelativeDocumentMoniker": "Data\\Menu\\pasta.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\pasta.json",
+              "RelativeToolTip": "Data\\Menu\\pasta.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T14:22:27.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderController.cs",
+              "RelativeDocumentMoniker": "Domain\\Order\\OrderController.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Order\\OrderController.cs",
+              "RelativeToolTip": "Domain\\Order\\OrderController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:48:39.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "falafel.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\falafel.json",
+              "RelativeDocumentMoniker": "Data\\Menu\\falafel.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\falafel.json",
+              "RelativeToolTip": "Data\\Menu\\falafel.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T12:50:20.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T19:55:46.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Menu\\MenuService.cs",
+              "RelativeDocumentMoniker": "Domain\\Menu\\MenuService.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Menu\\MenuService.cs",
+              "RelativeToolTip": "Domain\\Menu\\MenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:25:50.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "pizza.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\pizza.json",
+              "RelativeDocumentMoniker": "Data\\Menu\\pizza.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\pizza.json",
+              "RelativeToolTip": "Data\\Menu\\pizza.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T14:38:05.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IISProfile.pubxml",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Properties\\PublishProfiles\\IISProfile.pubxml",
+              "RelativeDocumentMoniker": "Properties\\PublishProfiles\\IISProfile.pubxml",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Properties\\PublishProfiles\\IISProfile.pubxml",
+              "RelativeToolTip": "Properties\\PublishProfiles\\IISProfile.pubxml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-22T11:06:39.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "mug_coffee.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\mug_coffee.json",
+              "RelativeDocumentMoniker": "Data\\Menu\\mug_coffee.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\mug_coffee.json",
+              "RelativeToolTip": "Data\\Menu\\mug_coffee.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T12:06:27.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "doritos.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\doritos.json",
+              "RelativeDocumentMoniker": "Data\\Menu\\doritos.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\doritos.json",
+              "RelativeToolTip": "Data\\Menu\\doritos.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T12:23:02.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "web.config",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\web.config",
+              "RelativeDocumentMoniker": "web.config",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\web.config",
+              "RelativeToolTip": "web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-22T10:48:11.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "burger_sandwich.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\burger_sandwich.json",
+              "RelativeDocumentMoniker": "Data\\Menu\\burger_sandwich.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\burger_sandwich.json",
+              "RelativeToolTip": "Data\\Menu\\burger_sandwich.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T17:12:48.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FoodStack Service",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\FoodStack Service.csproj",
+              "RelativeDocumentMoniker": "FoodStack Service.csproj",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\FoodStack Service.csproj",
+              "RelativeToolTip": "FoodStack Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-22T10:47:57.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "baguette.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\baguette.json",
+              "RelativeDocumentMoniker": "Data\\Menu\\baguette.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\baguette.json",
+              "RelativeToolTip": "Data\\Menu\\baguette.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T12:13:22.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FoodStack Service",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\FoodStack Service.csproj",
+              "RelativeDocumentMoniker": "FoodStack Service.csproj",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\FoodStack Service.csproj",
+              "RelativeToolTip": "FoodStack Service.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-22T10:31:54.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "soup.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\soup.json",
+              "RelativeDocumentMoniker": "Data\\Menu\\soup.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\soup.json",
+              "RelativeToolTip": "Data\\Menu\\soup.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-22T08:36:38.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MenuServiceFile.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Menu\\MenuServiceFile.cs",
+              "RelativeDocumentMoniker": "Domain\\Menu\\MenuServiceFile.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Domain\\Menu\\MenuServiceFile.cs",
+              "RelativeToolTip": "Domain\\Menu\\MenuServiceFile.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwGIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:27:18.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "wedding_cake.json",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\wedding_cake.json",
+              "RelativeDocumentMoniker": "Data\\Menu\\wedding_cake.json",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\Data\\Menu\\wedding_cake.json",
+              "RelativeToolTip": "Data\\Menu\\wedding_cake.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T14:39:33.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderServiceFileTests.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\Service - Test\\OrderServiceFileTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\Service - Test\\OrderServiceFileTests.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\Service - Test\\OrderServiceFileTests.cs",
+              "RelativeToolTip": "..\\..\\Service - Test\\OrderServiceFileTests.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAK8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:44:17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MenuServiceFileTests.cs",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\Service - Test\\MenuServiceFileTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\Service - Test\\MenuServiceFileTests.cs",
+              "ToolTip": "B:\\Solutions\\FoodStack\\Service - Test\\MenuServiceFileTests.cs",
+              "RelativeToolTip": "..\\..\\Service - Test\\MenuServiceFileTests.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwEAAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:45:09.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FoodStack Service.http",
+              "DocumentMoniker": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\FoodStack Service.http",
+              "RelativeDocumentMoniker": "FoodStack Service.http",
+              "ToolTip": "B:\\Solutions\\FoodStack\\service\\FoodStack Service\\FoodStack Service.http",
+              "RelativeToolTip": "FoodStack Service.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-18T17:06:59.012Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

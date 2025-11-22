@@ -1,0 +1,48 @@
+{
+  "menuID": "soup",
+  "menuName": "Soup",
+  "meals": [
+    {
+      "id": "soup-100",
+      "name": "Tomato Basil Soup",
+      "imageUrl": "assets/soup_PNG100.png",
+      "category": "soup",
+      "price": 4.49
+    },
+    {
+      "id": "soup-101",
+      "name": "Chicken Noodle Soup",
+      "imageUrl": "assets/soup_PNG101.png",
+      "category": "soup",
+      "price": 4.99
+    },
+    {
+      "id": "soup-102",
+      "name": "Creamy Mushroom Soup",
+      "imageUrl": "assets/soup_PNG102.png",
+      "category": "soup",
+      "price": 5.29
+    },
+    {
+      "id": "soup-104",
+      "name": "Pumpkin Spice Soup",
+      "imageUrl": "assets/soup_PNG104.png",
+      "category": "soup",
+      "price": 5.19
+    },
+    {
+      "id": "soup-98",
+      "name": "Classic Vegetable Soup",
+      "imageUrl": "assets/soup_PNG98.png",
+      "category": "soup",
+      "price": 4.29
+    },
+    {
+      "id": "soup-99",
+      "name": "Creamy Potato Soup",
+      "imageUrl": "assets/soup_PNG99.png",
+      "category": "soup",
+      "price": 5.39
+    }
+  ]
+}

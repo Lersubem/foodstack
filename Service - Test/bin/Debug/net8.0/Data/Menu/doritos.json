@@ -1,0 +1,58 @@
+[
+  {
+    "id": "doritos-47",
+    "name": "Doritos Nacho Cheese",
+    "imageUrl": "madengines.xyz/foodstack/pngimg.com - doritos_PNG47.png",
+    "category": "doritos",
+    "price": 1.89
+  },
+  {
+    "id": "doritos-48",
+    "name": "Doritos Cool Ranch",
+    "imageUrl": "madengines.xyz/foodstack/pngimg.com - doritos_PNG48.png",
+    "category": "doritos",
+    "price": 1.99
+  },
+  {
+    "id": "doritos-49",
+    "name": "Doritos Spicy Chili",
+    "imageUrl": "madengines.xyz/foodstack/pngimg.com - doritos_PNG49.png",
+    "category": "doritos",
+    "price": 2.09
+  },
+  {
+    "id": "doritos-51",
+    "name": "Doritos Salsa Fiesta",
+    "imageUrl": "madengines.xyz/foodstack/pngimg.com - doritos_PNG51.png",
+    "category": "doritos",
+    "price": 2.15
+  },
+  {
+    "id": "doritos-54",
+    "name": "Doritos Cheese Supreme",
+    "imageUrl": "madengines.xyz/foodstack/pngimg.com - doritos_PNG54.png",
+    "category": "doritos",
+    "price": 2.05
+  },
+  {
+    "id": "doritos-55",
+    "name": "Doritos Lime Twist",
+    "imageUrl": "madengines.xyz/foodstack/pngimg.com - doritos_PNG55.png",
+    "category": "doritos",
+    "price": 1.95
+  },
+  {
+    "id": "doritos-58",
+    "name": "Doritos BBQ Burst",
+    "imageUrl": "madengines.xyz/foodstack/pngimg.com - doritos_PNG58.png",
+    "category": "doritos",
+    "price": 2.25
+  },
+  {
+    "id": "doritos-59",
+    "name": "Doritos Hot & Spicy",
+    "imageUrl": "madengines.xyz/foodstack/pngimg.com - doritos_PNG59.png",
+    "category": "doritos",
+    "price": 2.19
+  }
+]

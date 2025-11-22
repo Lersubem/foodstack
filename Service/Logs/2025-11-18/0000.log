@@ -1,0 +1,15 @@
+2025-11-18 21:03:45.212 +01:00 [INF] Now listening on: https://localhost:7085
+2025-11-18 21:03:45.255 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-18 21:03:45.330 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-18 21:03:45.331 +01:00 [INF] Hosting environment: Development
+2025-11-18 21:03:45.332 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-18 21:03:53.808 +01:00 [WRN] Menu file not found: B:\Solutions\FoodStack\service\FoodStack Service\Data\Menu\default.mnu
+2025-11-18 21:07:21.119 +01:00 [INF] Application is shutting down...
+2025-11-18 21:09:35.123 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-18 21:09:35.154 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-18 21:09:35.156 +01:00 [INF] Hosting environment: Development
+2025-11-18 21:09:35.156 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-18 21:09:42.433 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-18 21:09:42.464 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-18 21:09:42.465 +01:00 [INF] Hosting environment: Development
+2025-11-18 21:09:42.466 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service

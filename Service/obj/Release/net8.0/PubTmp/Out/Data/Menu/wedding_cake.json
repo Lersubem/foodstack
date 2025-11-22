@@ -1,0 +1,48 @@
+{
+  "menuID": "wedding_cake",
+  "menuName": "Wedding cake",
+  "meals": [
+    {
+      "id": "cake-99008",
+      "name": "Gold Accent Wedding Cake",
+      "imageUrl": "assets/wedding_cake_PNG99008.png",
+      "category": "wedding_cake",
+      "price": 189.99
+    },
+    {
+      "id": "cake-99009",
+      "name": "Berry Topped Wedding Cake",
+      "imageUrl": "assets/wedding_cake_PNG99009.png",
+      "category": "wedding_cake",
+      "price": 129.99
+    },
+    {
+      "id": "cake-99010",
+      "name": "Chocolate Wedding Cake",
+      "imageUrl": "assets/wedding_cake_PNG99010.png",
+      "category": "wedding_cake",
+      "price": 119.49
+    },
+    {
+      "id": "cake-99012",
+      "name": "Naked Rustic Wedding Cake",
+      "imageUrl": "assets/wedding_cake_PNG99012.png",
+      "category": "wedding_cake",
+      "price": 169.29
+    },
+    {
+      "id": "cake-99013",
+      "name": "Floral Cascade Wedding Cake",
+      "imageUrl": "assets/wedding_cake_PNG99013.png",
+      "category": "wedding_cake",
+      "price": 179.59
+    },
+    {
+      "id": "cake-99020",
+      "name": "Lilac Theme Wedding Cake",
+      "imageUrl": "assets/wedding_cake_PNG99020.png",
+      "category": "wedding_cake",
+      "price": 149.49
+    }
+  ]
+}

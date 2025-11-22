@@ -1,0 +1,198 @@
+@use "./globals.colors.scss" as *;
+
+
+:root {
+    //@ Primary
+    --color-holder-accent-h: var(--palette-accent-h);
+    --color-holder-accent-s: var(--palette-accent-s);
+    --color-holder-accent-l: calc(var(--palette-accent-l));
+    --color-accent-h: var(--color-holder-accent-h);
+    --color-accent-s: var(--color-holder-accent-s);
+    --color-accent-l: var(--color-holder-accent-l);
+
+    //@ Secondary
+    --color-holder-highlight-h: var(--palette-highlight-h);
+    --color-holder-highlight-s: var(--palette-highlight-s);
+    --color-holder-highlight-l: calc(var(--palette-highlight-l));
+    --color-highlight-h: var(--color-holder-highlight-h);
+    --color-highlight-s: var(--color-holder-highlight-s);
+    --color-highlight-l: var(--color-holder-highlight-l);
+
+    //@ Tertiary
+    --color-holder-background-h: var(--palette-background-h);
+    --color-holder-background-s: var(--palette-background-s);
+    --color-holder-background-l: calc(var(--palette-background-l));
+    --color-background-h: var(--color-holder-background-h);
+    --color-background-s: var(--color-holder-background-s);
+    --color-background-l: var(--color-holder-background-l);
+
+    //@ Quaternary
+    --color-holder-foreground-h: var(--palette-foreground-h);
+    --color-holder-foreground-s: var(--palette-foreground-s);
+    --color-holder-foreground-l: calc(var(--palette-foreground-l));
+    --color-foreground-h: var(--color-holder-foreground-h);
+    --color-foreground-s: var(--color-holder-foreground-s);
+    --color-foreground-l: var(--color-holder-foreground-l);
+}
+
+:root {
+    //--color-theme-isdark: calc(calc(((clamp(0, calc(calc(var(--color-background-l) - 50) + 1 / 1000000), calc(1 / 1000000)) * 1000000) - 0.5) * 2));
+    --color-theme-isdark: calc(((clamp(0, calc((((var(--color-background-l) - 50) + 1 / 1000) / 1000) * 1000000), 1)) - 0.5) * 2);
+    //Basic
+    --color-basic-s: calc((var(--color-accent-s) + var(--color-highlight-s)) / 2);
+    --color-basic-l: calc((var(--color-background-s) + var(--color-highlight-s) + var(--color-accent-s)) / 2);
+
+    --color-red-h: #{$config-color-red-h};
+    --color-red-s: var(--color-basic-s);
+    --color-red-l: #{$config-color-basic-l};
+
+    --color-orange-h: #{$config-color-orange-h};
+    --color-orange-s: var(--color-basic-s);
+    --color-orange-l: #{$config-color-basic-l};
+
+    --color-gold-h: #{$config-color-gold-h};
+    --color-gold-s: var(--color-basic-s);
+    --color-gold-l: #{$config-color-basic-l};
+
+    --color-yellow-h: #{$config-color-yellow-h};
+    --color-yellow-s: var(--color-basic-s);
+    --color-yellow-l: #{$config-color-basic-l};
+
+    --color-green-h: #{$config-color-green-h};
+    --color-green-s: var(--color-basic-s);
+    --color-green-l: #{$config-color-basic-l};
+
+    --color-blue-h: #{$config-color-blue-h};
+    --color-blue-s: var(--color-basic-s);
+    --color-blue-l: #{$config-color-basic-l};
+
+    --color-purple-h: #{$config-color-purple-h};
+    --color-purple-s: var(--color-basic-s);
+    --color-purple-l: #{$config-color-basic-l};
+
+    --color-pink-h: #{$config-color-pink-h};
+    --color-pink-s: var(--color-basic-s);
+    --color-pink-l: #{$config-color-basic-l};
+
+    //Compound
+    --color-bronze-h: #{$config-color-bronze-h};
+    --color-bronze-s: #{$config-color-bronze-s};
+    --color-bronze-l: #{$config-color-bronze-l};
+
+    --color-tan-h: #{$config-color-tan-h};
+    --color-tan-s: #{$config-color-tan-s};
+    --color-tan-l: #{$config-color-tan-l};
+
+    --color-brown-h: #{$config-color-brown-h};
+    --color-brown-s: #{$config-color-brown-s};
+    --color-brown-l: #{$config-color-brown-l};
+
+    //Grey scale
+    --color-pureblack-h: #{$config-color-greyscale-h};
+    --color-pureblack-s: #{$config-color-greyscale-s};
+    --color-pureblack-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-pureblack-l} - 50)));
+
+    --color-black-h: #{$config-color-greyscale-h};
+    --color-black-s: #{$config-color-greyscale-s};
+    --color-black-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-black-l} - 50)));
+
+    --color-smokeblack-h: #{$config-color-greyscale-h};
+    --color-smokeblack-s: #{$config-color-greyscale-s};
+    --color-smokeblack-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-smokeblack-l} - 50)));
+
+    --color-dark-h: #{$config-color-greyscale-h};
+    --color-dark-s: #{$config-color-greyscale-s};
+    --color-dark-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-dark-l} - 50)));
+
+    --color-deep-h: #{$config-color-greyscale-h};
+    --color-deep-s: #{$config-color-greyscale-s};
+    --color-deep-l: #{$config-color-deep-l};
+    --color-deep-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-deep-l} - 50)));
+
+    --color-grey-h: #{$config-color-greyscale-h};
+    --color-grey-s: #{$config-color-greyscale-s};
+    --color-grey-l: #{$config-color-grey-l};
+
+    --color-silver-h: #{$config-color-greyscale-h};
+    --color-silver-s: #{$config-color-greyscale-s};
+    --color-silver-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-silver-l} - 50)));
+
+    --color-light-h: #{$config-color-greyscale-h};
+    --color-light-s: #{$config-color-greyscale-s};
+    --color-light-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-light-l} - 50)));
+    --color-light-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-light-l} - 50)));
+
+    --color-smokewhite-h: #{$config-color-greyscale-h};
+    --color-smokewhite-s: #{$config-color-greyscale-s};
+    --color-smokewhite-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-smokewhite-l} - 50)));
+
+    --color-white-h: #{$config-color-greyscale-h};
+    --color-white-s: #{$config-color-greyscale-s};
+    --color-white-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-white-l} - 50)));
+
+    --color-purewhite-h: #{$config-color-greyscale-h};
+    --color-purewhite-s: #{$config-color-greyscale-s};
+    --color-purewhite-l: calc(50 + calc(var(--color-theme-isdark) * calc(#{$config-color-purewhite-l} - 50)));
+}
+
+:root {
+    --palette-accent-h: 25;
+    --palette-accent-s: 95;
+    --palette-accent-l: 53;
+
+    --palette-highlight-h: 142;
+    --palette-highlight-s: 71;
+    --palette-highlight-l: 45;
+
+    --palette-background-h: 229;
+    --palette-background-s: 84;
+    --palette-background-l: 5;
+
+    --palette-foreground-h: 0;
+    --palette-foreground-s: 0;
+    --palette-foreground-l: 0;
+
+    --animation-duration: 350ms;
+    --palette-threshold-contrast: 10;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    
+    @include bg-set($color-holder-background);
+    
+    transition:
+        background-color var(--animation-duration) ease-in-out,
+        color calc(var(--animation-duration) * 0.5) ease-out;
+}
+* {
+    box-sizing: border-box;
+    color: colmap-hsla(colmap-transform-foreground($color-background, var(--palette-threshold-contrast), colmap-threshold-lightness($color-foreground, 30)));
+    transition:
+        background-color var(--animation-duration) ease-in-out,
+        color calc(var(--animation-duration) * 0.5) ease-out;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+
+.ani {
+    transition: all 175ms ease-in-out;
+}

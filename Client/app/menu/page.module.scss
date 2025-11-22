@@ -1,0 +1,668 @@
+@use "../assets/styles/globals.colors.scss" as *;
+
+:root {
+    --container-padding-x: 16px;
+    --container-padding-y: 24px;
+}
+
+.container {
+    min-height: 100vh;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 0 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerBar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 8px;
+
+    & .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: var(--container-padding-y, 24px);
+        padding-left: var(--container-padding-x, 16px);
+        padding-bottom: var(--container-padding-x, 16px);
+        padding-right: var(--container-padding-x, 16px);
+
+        @include bg-set($color-holder-background);
+
+        & .title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        & .cartSummary {
+            background-color: transparent;
+            border: solid 1px transparent;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            padding: 8px;
+            border-radius: 13px;
+            user-select: none;
+
+            &:not(:disabled) {
+                border-color: colmap-hsla($color-accent);
+
+                &:hover {
+                    @include bg-set($color-accent);
+                    border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+                    box-shadow: 0 0 15px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+                }
+
+                &:active {
+                    background: colmap-hsla(colmap-threshold-lightness($color-accent, -10));
+                    border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+                    box-shadow: 0 0 7px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+                }
+            }
+
+            & .cartLabel {
+                opacity: 0.8;
+            }
+
+            & .cartCount {
+                @include bg-set($color-accent);
+                font-weight: 600;
+                padding: 2px 8px;
+                border-radius: 999px;
+            }
+        }
+    }
+
+    & .error {
+        padding: 8px 12px;
+        border-radius: 6px;
+        background-color: colmap-hsla(colmap-threshold-lightness($color-red, -25));
+        font-size: 14px;
+        margin-top: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+}
+
+.footerBar {
+    position: sticky;
+    bottom: -1;
+    z-index: 1;
+    margin-top: 16px;
+
+    & .footer {
+        @include bg-set($color-holder-background);
+        display: flex;
+        padding-bottom: var(--container-padding-y, 24px);
+        padding-left: var(--container-padding-x, 16px);
+        padding-top: var(--container-padding-x, 16px);
+        padding-right: var(--container-padding-x, 16px);
+        gap: 32px;
+
+        & .footerMain {
+            flex: 1;
+
+            & .themeButton {
+                background-color: transparent;
+                padding: 10px 16px;
+                border-radius: 999px;
+                border: solid 1px colmap-hsla($color-accent);
+                font-weight: 700;
+                font-size: 14px;
+
+                &:hover {
+                    @include bg-set($color-accent);
+                    border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+                    box-shadow: 0 0 15px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+                }
+
+                &:active {
+                    background: colmap-hsla(colmap-threshold-lightness($color-accent, -10));
+                    border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+                    box-shadow: 0 0 7px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+                }
+            }
+        }
+
+        & .footerControls {
+            flex: 0 max-content;
+            display: flex;
+            gap: inherit;
+
+            & .orderButton {
+                @include bg-set($color-accent);
+                min-width: 140px;
+                padding: 10px 16px;
+                border-radius: 999px;
+                border: none;
+                font-weight: 700;
+                font-size: 14px;
+
+                &:not(:disabled):hover {
+                    @include bg-set($color-accent);
+                    border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+                    box-shadow: 0 0 15px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+                }
+
+                &:not(:disabled):active {
+                    background: colmap-hsla(colmap-threshold-lightness($color-accent, -10));
+                    border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+                    box-shadow: 0 0 7px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+                }
+                
+                &:disabled {
+                    opacity: 0.5;
+                    cursor: default;
+                }
+            }
+
+            & .footerTotal {
+                margin-top: auto;
+                margin-bottom: auto;
+                height: max-content;
+                display: flex;
+                gap: 8px;
+            }
+        }
+
+    }
+
+    & .themePopup {
+        @include bg-set(colmap-threshold-lightness($color-holder-background, 5));
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(120px, 45%), 1fr));
+        gap: 18px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+
+        & .themePaletteButton {
+            @include bg-set($color-accent);
+            min-width: 120;
+            padding: 10px 16px;
+            border-radius: 999px;
+            border: none;
+            font-weight: 700;
+            font-size: 14px;
+
+            &:hover {
+                @include bg-set($color-accent);
+                border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+                box-shadow: 0 0 15px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+            }
+
+            &:active {
+                background: colmap-hsla(colmap-threshold-lightness($color-accent, -10));
+                border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+                box-shadow: 0 0 7px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+            }
+        }
+    }
+}
+
+.menuGrid {
+    margin-top: 8px;
+    flex: 1;
+
+    padding-left: var(--container-padding-x, 16px);
+    padding-right: var(--container-padding-x, 16px);
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    & .menuGroup {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        & .menuHeader {
+            font-size: 1.4rem;
+        }
+
+        & .menuMeals {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(230px, 45%), 1fr));
+            gap: 20px;
+
+            & .menuLoading {
+                display: flex;
+                gap: 12px;
+                margin-left: 8px;
+
+                & > * {
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    height: max-content;
+                }
+
+                & .menuLoadingGlyph {
+                    color: colmap-hsla(colmap-threshold-lightness($color-yellow, -20));
+                }
+            }
+        }
+    }
+}
+
+.mealCard {
+    user-select: none;
+    border-radius: 12px;
+    border: 1px solid colmap-hsla(colmap-threshold($color-background, 0, -50, 10));
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    &:hover:not(:has(.mealAddButton:hover, .quantityButton:hover)) {
+        border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+        box-shadow: 0 0 11px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+    }
+
+    &:active:not(:has(.mealAddButton:active, .quantityButton:active)) {
+        border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+        box-shadow: 0 0 7px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+        background: colmap-hsla(colmap-threshold-lightness(colmap-transform-alpha($color-accent, 0.05), 40));
+
+        color: colmap-hsla(colmap-transform-foreground(colmap-threshold-lightness($color-holder-background, 20), var(--palette-threshold-contrast), $color-dark));
+    }
+
+    & .mealImageWrapper {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        flex: 1;
+
+        & .mealImageFallback {
+            min-height: 100px;
+            height: 100%;
+
+            & > span {
+                position: relative;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                color: colmap-hsla(colmap-threshold-lightness($color-red, -20));
+                font-size: 1.4rem;
+            }
+        }
+
+        & .mealImage {
+            object-fit: scale-down;
+            position: relative;
+            inset: 0;
+            padding: 20px;
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            pointer-events: none;
+        }
+    }
+
+    & .mealBody {
+        padding: 10px 12px 4px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        & .mealContent {
+
+            & .mealName {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            & .mealCategory {
+                font-size: 12px;
+                opacity: 0.7;
+            }
+
+
+            & .mealPrice {
+                font-size: 14px;
+                font-weight: 600;
+                margin-top: 4px;
+            }
+
+        }
+
+        & .mealActions {
+            padding: 8px 0 12px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            height: 55px;
+
+            & .mealAddButton {
+                @include bg-set($color-highlight);
+
+                height: 30px;
+                height: auto;
+                padding: 6px 12px;
+                border-radius: 999px;
+                border: none;
+                background: colmap-hsla($color-highlight);
+                border: 1px solid colmap-hsla(colmap-threshold($color-highlight, 0, -50, 10));
+                font-size: 14px;
+                font-weight: 600;
+
+                &:hover {
+                    border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-highlight, 0, -50, 10), 0.5));
+                    box-shadow: 0 0 15px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-highlight, 0, -50, 10), 0.75));
+                }
+
+                &:active {
+                    background: colmap-hsla(colmap-threshold-lightness($color-highlight, -10));
+                    border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-highlight, 0, -50, 10), 0.75));
+                    box-shadow: 0 0 7px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-highlight, 0, -50, 10), 0.5));
+                }
+            }
+        }
+
+    }
+
+
+}
+
+
+.mealImageWrapper {
+    & .mealImageFallback {
+        min-height: 100px;
+        height: 100%;
+
+        & > span {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: colmap-hsla(colmap-threshold-lightness($color-red, -20));
+            font-size: 1.4rem;
+        }
+    }
+
+    & .mealImage {
+        object-fit: scale-down;
+        position: relative;
+        inset: 0;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+}
+
+
+.quantityControls {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    & .quantityButton {
+        width: 30px;
+        height: 30px;
+        border-radius: 999px;
+        border: 1px solid colmap-hsla(colmap-threshold($color-highlight, 0, -100, 10));
+        background-color: transparent;
+        font-size: 16px;
+        line-height: 1;
+
+        &:disabled {
+            opacity: 0.4;
+            cursor: default;
+        }
+
+        &:hover {
+            border: 1px solid colmap-hsla(colmap-threshold($color-highlight, 0, -50, 10));
+            box-shadow: 0 0 15px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-highlight, 0, -50, 10), 0.75));
+        }
+
+        &:active {
+            border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-highlight, 0, -50, 10), 0.75));
+            box-shadow: 0 0 7px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-highlight, 0, -50, 10), 0.5));
+        }
+    }
+
+    & .quantityValue {
+        min-width: 20px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
+
+.cartPopup {
+    @include bg-set(colmap-threshold-lightness($color-holder-background, 5));
+
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    & > * {
+        padding-left: var(--container-padding-x, 16px);
+        padding-right: var(--container-padding-x, 16px);
+    }
+
+    &.cartPopupOpen {
+        max-height: 380px;
+    }
+
+    & .cartPopupBody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & .cartPopupHeader {
+        font-size: 1.3rem;
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+
+    & .cartPopupBody {
+        flex-direction: column;
+        max-height: min(30dvh, 282px);
+        display: flex;
+        position: relative;
+        overflow: auto;
+        flex: 0 0;
+
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        & .cartItemRow {
+            display: grid;
+            column-gap: 16px;
+            position: relative;
+            grid-template-columns: auto 90px 1fr auto;
+
+            & > * {
+                height: max-content;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            & .removeButton {
+                padding: 12px;
+                border-radius: 999px;
+                border: 1px solid colmap-hsla(colmap-threshold($color-accent, 0, -100, 10));
+
+                &:hover {
+                    border: 1px solid colmap-hsla(colmap-threshold($color-accent, 0, -50, 10));
+                    box-shadow: 0 0 15px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+                }
+
+                &:active {
+                    border-color: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.75));
+                    box-shadow: 0 0 7px colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.5));
+                }
+            }
+
+            & .cartItemCategory {
+                font-size: 0.8rem;
+                color: colmap-hsla($color-grey);
+            }
+        }
+
+        @media screen and (max-width: 550px) {
+            gap: 24px;
+
+            & .cartItemRow {
+                row-gap: 8px;
+
+                &:not(:last-child)::after {
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    bottom: -12px;
+                    transform: translateX(-50%);
+                    height: 1px;
+                    width: 35%;
+                    background-color: colmap-hsla(colmap-transform-alpha($color-grey, 0.7));
+                }
+
+                & .cartItemRemove {
+                    grid-column: 1;
+                    grid-row: 1 / span 2;
+                }
+
+                & .mealImageWrapper {
+                    grid-column: 2;
+                    grid-row: 2;
+                    height: 43px;
+
+                    & img {
+                        height: 100%;
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+
+                & .cartItemInfo {
+                    grid-column: 2 / span 2;
+                    grid-row: 1;
+                    height: 43px;
+                }
+
+                & .quantityControls {
+                    grid-column: 4;
+                    grid-row: 1 / span 2;
+                }
+            }
+        }
+    }
+
+    & .cartTotal {
+        padding-top: 8px;
+        display: flex;
+        padding-bottom: 16px;
+
+        & .cartTotalLabel {
+            flex: 1;
+        }
+
+        & .cartTotalValue {
+            min-width: 92px;
+            text-align: center;
+        }
+    }
+
+    & .cartPopupScrollBar {
+        padding: 0;
+        pointer-events: none;
+        width: 4px;
+        border-radius: 999px;
+        background: colmap-hsla(colmap-transform-alpha(colmap-threshold($color-accent, 0, -50, 10), 0.8));
+        position: absolute;
+        right: 0;
+    }
+}
+
+.submitOverlay {
+    transition: background-color 350ms ease-in-out;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+
+    &.submitOverlayVisible {
+        @include bg-set(colmap-transform-alpha($color-light, 0.65));
+    }
+
+    & .submitOverlayContent {
+
+        & > * {
+            position: absolute;
+            left: 50%;
+            top: min(50%, 40dvh);
+            transform: translate(-50%, -50%);
+        }
+
+        .submitOverlaySpninner {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: inline-block;
+            border-top: 4px solid colmap-hsla($color-highlight);
+            border-right: 4px solid transparent;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+        }
+
+        .submitOverlaySpninner::after {
+            content: '';
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border-left: 4px solid colmap-hsla($color-accent);
+            border-bottom: 4px solid transparent;
+            animation: rotation 0.5s linear infinite reverse;
+        }
+
+        & .submitOverlayMessage {
+            transition: all 350ms ease-in-out;
+            margin-top: calc(42px + 48px);
+            position: absolute;
+            text-align: center;
+            max-width: 90%;
+            text-shadow: 2px 2px 1px colmap-hsla($color-light);
+        }
+    }
+}
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

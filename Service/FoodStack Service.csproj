@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>FoodStack</RootNamespace>
+		<AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
+		<PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+		<PackageReference Include="Serilog.Sinks.Map" Version="2.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="wwwroot\assets\baguette_PNG16.png" />
+		<None Include="wwwroot\assets\baguette_PNG20.png" />
+		<None Include="wwwroot\assets\baguette_PNG26.png" />
+		<None Include="wwwroot\assets\baguette_PNG29.png" />
+		<None Include="wwwroot\assets\baguette_PNG31.png" />
+		<None Include="wwwroot\assets\baguette_PNG4.png" />
+		<None Include="wwwroot\assets\burger_sandwich_PNG96774.png" />
+		<None Include="wwwroot\assets\burger_sandwich_PNG96776.png" />
+		<None Include="wwwroot\assets\burger_sandwich_PNG96777.png" />
+		<None Include="wwwroot\assets\burger_sandwich_PNG96778.png" />
+		<None Include="wwwroot\assets\burger_sandwich_PNG96779.png" />
+		<None Include="wwwroot\assets\burger_sandwich_PNG96781.png" />
+		<None Include="wwwroot\assets\doritos_PNG47.png" />
+		<None Include="wwwroot\assets\doritos_PNG48.png" />
+		<None Include="wwwroot\assets\doritos_PNG49.png" />
+		<None Include="wwwroot\assets\doritos_PNG51.png" />
+		<None Include="wwwroot\assets\doritos_PNG54.png" />
+		<None Include="wwwroot\assets\doritos_PNG55.png" />
+		<None Include="wwwroot\assets\falafel_PNG52.png" />
+		<None Include="wwwroot\assets\falafel_PNG53.png" />
+		<None Include="wwwroot\assets\falafel_PNG54.png" />
+		<None Include="wwwroot\assets\falafel_PNG55.png" />
+		<None Include="wwwroot\assets\falafel_PNG59.png" />
+		<None Include="wwwroot\assets\falafel_PNG97934.png" />
+		<None Include="wwwroot\assets\mug_coffee_PNG97431.png" />
+		<None Include="wwwroot\assets\mug_coffee_PNG97433.png" />
+		<None Include="wwwroot\assets\mug_coffee_PNG97434.png" />
+		<None Include="wwwroot\assets\mug_coffee_PNG97435.png" />
+		<None Include="wwwroot\assets\mug_coffee_PNG97436.png" />
+		<None Include="wwwroot\assets\mug_coffee_PNG97437.png" />
+		<None Include="wwwroot\assets\pasta_PNG89.png" />
+		<None Include="wwwroot\assets\pasta_PNG90.png" />
+		<None Include="wwwroot\assets\pasta_PNG91.png" />
+		<None Include="wwwroot\assets\pasta_PNG93.png" />
+		<None Include="wwwroot\assets\pasta_PNG94.png" />
+		<None Include="wwwroot\assets\pasta_PNG95.png" />
+		<None Include="wwwroot\assets\pizza_PNG7097.png" />
+		<None Include="wwwroot\assets\pizza_PNG7099.png" />
+		<None Include="wwwroot\assets\pizza_PNG7100.png" />
+		<None Include="wwwroot\assets\pizza_PNG7101.png" />
+		<None Include="wwwroot\assets\pizza_PNG7102.png" />
+		<None Include="wwwroot\assets\pizza_PNG7105.png" />
+		<None Include="wwwroot\assets\soup_PNG100.png" />
+		<None Include="wwwroot\assets\soup_PNG101.png" />
+		<None Include="wwwroot\assets\soup_PNG102.png" />
+		<None Include="wwwroot\assets\soup_PNG104.png" />
+		<None Include="wwwroot\assets\soup_PNG98.png" />
+		<None Include="wwwroot\assets\soup_PNG99.png" />
+		<None Include="wwwroot\assets\wedding_cake_PNG99008.png" />
+		<None Include="wwwroot\assets\wedding_cake_PNG99009.png" />
+		<None Include="wwwroot\assets\wedding_cake_PNG99010.png" />
+		<None Include="wwwroot\assets\wedding_cake_PNG99012.png" />
+		<None Include="wwwroot\assets\wedding_cake_PNG99013.png" />
+		<None Include="wwwroot\assets\wedding_cake_PNG99020.png" />
+	</ItemGroup>
+
+</Project>

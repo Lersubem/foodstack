@@ -1,0 +1,48 @@
+A:\FoodStack\Server\FoodStack Service.exe
+A:\FoodStack\Server\web.config
+A:\FoodStack\Server\appsettings.Development.json
+A:\FoodStack\Server\appsettings.json
+A:\FoodStack\Server\Data\Menu\baguette.json
+A:\FoodStack\Server\Data\Menu\burger_sandwich.json
+A:\FoodStack\Server\Data\Menu\doritos.json
+A:\FoodStack\Server\Data\Menu\falafel.json
+A:\FoodStack\Server\Data\Menu\mug_coffee.json
+A:\FoodStack\Server\Data\Menu\pasta.json
+A:\FoodStack\Server\Data\Menu\pizza.json
+A:\FoodStack\Server\Data\Menu\soup.json
+A:\FoodStack\Server\Data\Menu\wedding_cake.json
+A:\FoodStack\Server\FoodStack Service.dll
+A:\FoodStack\Server\FoodStack Service.deps.json
+A:\FoodStack\Server\FoodStack Service.runtimeconfig.json
+A:\FoodStack\Server\FoodStack Service.pdb
+A:\FoodStack\Server\Microsoft.Extensions.Configuration.Abstractions.dll
+A:\FoodStack\Server\Microsoft.Extensions.Configuration.Binder.dll
+A:\FoodStack\Server\Microsoft.Extensions.DependencyInjection.dll
+A:\FoodStack\Server\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+A:\FoodStack\Server\Microsoft.Extensions.DependencyModel.dll
+A:\FoodStack\Server\Microsoft.Extensions.Diagnostics.Abstractions.dll
+A:\FoodStack\Server\Microsoft.Extensions.FileProviders.Abstractions.dll
+A:\FoodStack\Server\Microsoft.Extensions.Hosting.Abstractions.dll
+A:\FoodStack\Server\Microsoft.Extensions.Logging.dll
+A:\FoodStack\Server\Microsoft.Extensions.Logging.Abstractions.dll
+A:\FoodStack\Server\Microsoft.Extensions.Options.dll
+A:\FoodStack\Server\Microsoft.Extensions.Primitives.dll
+A:\FoodStack\Server\Microsoft.OpenApi.dll
+A:\FoodStack\Server\Serilog.dll
+A:\FoodStack\Server\Serilog.AspNetCore.dll
+A:\FoodStack\Server\Serilog.Extensions.Hosting.dll
+A:\FoodStack\Server\Serilog.Extensions.Logging.dll
+A:\FoodStack\Server\Serilog.Formatting.Compact.dll
+A:\FoodStack\Server\Serilog.Settings.Configuration.dll
+A:\FoodStack\Server\Serilog.Sinks.Console.dll
+A:\FoodStack\Server\Serilog.Sinks.Debug.dll
+A:\FoodStack\Server\Serilog.Sinks.File.dll
+A:\FoodStack\Server\Serilog.Sinks.Map.dll
+A:\FoodStack\Server\Swashbuckle.AspNetCore.Swagger.dll
+A:\FoodStack\Server\Swashbuckle.AspNetCore.SwaggerGen.dll
+A:\FoodStack\Server\Swashbuckle.AspNetCore.SwaggerUI.dll
+A:\FoodStack\Server\System.Diagnostics.DiagnosticSource.dll
+A:\FoodStack\Server\System.IO.Pipelines.dll
+A:\FoodStack\Server\System.Text.Encodings.Web.dll
+A:\FoodStack\Server\System.Text.Json.dll
+A:\FoodStack\Server\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

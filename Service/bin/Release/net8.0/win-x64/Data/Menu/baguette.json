@@ -1,0 +1,48 @@
+{
+  "menuID": "baguette",
+  "menuName": "Baguette",
+  "meals": [
+    {
+      "id": "baguette-16",
+      "name": "Classic French Baguette",
+      "imageUrl": "assets/baguette_PNG16.png",
+      "category": "baguette",
+      "price": 2.49
+    },
+    {
+      "id": "baguette-20",
+      "name": "Sesame Seed Baguette",
+      "imageUrl": "assets/baguette_PNG20.png",
+      "category": "baguette",
+      "price": 2.89
+    },
+    {
+      "id": "baguette-26",
+      "name": "Rustic Country Baguette",
+      "imageUrl": "assets/baguette_PNG26.png",
+      "category": "baguette",
+      "price": 3.15
+    },
+    {
+      "id": "baguette-29",
+      "name": "Garlic Herb Baguette",
+      "imageUrl": "assets/baguette_PNG29.png",
+      "category": "baguette",
+      "price": 3.45
+    },
+    {
+      "id": "baguette-31",
+      "name": "Olive Baguette",
+      "imageUrl": "assets/baguette_PNG31.png",
+      "category": "baguette",
+      "price": 3.25
+    },
+    {
+      "id": "baguette-4",
+      "name": "Mini Snack Baguette",
+      "imageUrl": "assets/baguette_PNG4.png",
+      "category": "baguette",
+      "price": 1.95
+    }
+  ]
+}

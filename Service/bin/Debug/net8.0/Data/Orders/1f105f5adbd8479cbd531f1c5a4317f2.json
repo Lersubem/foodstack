@@ -1,0 +1,17 @@
+{
+  "orderID": "1f105f5adbd8479cbd531f1c5a4317f2",
+  "orderTime": "2025-11-22T08:03:25.1219061+00:00",
+  "request": {
+    "requestID": "1763798522347-912519",
+    "meals": [
+      {
+        "id": "baguette-20",
+        "quantity": 1
+      },
+      {
+        "id": "baguette-16",
+        "quantity": 2
+      }
+    ]
+  }
+}

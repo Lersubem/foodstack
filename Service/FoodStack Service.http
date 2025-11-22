@@ -1,0 +1,25 @@
+@FoodStack_HostAddress = http://localhost:5124
+
+### Get menu
+GET {{FoodStack_HostAddress}}/api/menu
+Accept: application/json
+
+###
+
+### Create order
+POST {{FoodStack_HostAddress}}/api/orders
+Accept: application/json
+Content-Type: application/json
+
+{
+  "item-1": 2,
+  "item-2": 1
+}
+
+###
+
+### Get order by ID
+GET {{FoodStack_HostAddress}}/api/orders/{{orderId}}
+Accept: application/json
+
+###

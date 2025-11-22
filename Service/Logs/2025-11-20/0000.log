@@ -1,0 +1,302 @@
+2025-11-20 11:57:43.604 +01:00 [INF] Now listening on: https://localhost:7085
+2025-11-20 11:57:43.643 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 11:57:43.698 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 11:57:43.700 +01:00 [INF] Hosting environment: Development
+2025-11-20 11:57:43.701 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 13:55:01.587 +01:00 [INF] Now listening on: https://localhost:7085
+2025-11-20 13:55:01.618 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 13:55:01.742 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 13:55:01.743 +01:00 [INF] Hosting environment: Development
+2025-11-20 13:55:01.744 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 15:12:43.757 +01:00 [INF] Now listening on: https://localhost:7085
+2025-11-20 15:12:43.790 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 15:12:43.851 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 15:12:43.852 +01:00 [INF] Hosting environment: Development
+2025-11-20 15:12:43.852 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 15:15:33.028 +01:00 [INF] Now listening on: https://localhost:7085
+2025-11-20 15:15:33.067 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 15:15:33.204 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 15:15:33.205 +01:00 [INF] Hosting environment: Development
+2025-11-20 15:15:33.206 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 15:19:25.856 +01:00 [INF] Now listening on: https://localhost:7085
+2025-11-20 15:19:25.896 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 15:19:25.958 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 15:19:25.960 +01:00 [INF] Hosting environment: Development
+2025-11-20 15:19:25.963 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 20:46:59.158 +01:00 [INF] Now listening on: https://localhost:7085
+2025-11-20 20:46:59.191 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 20:46:59.246 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 20:46:59.247 +01:00 [INF] Hosting environment: Development
+2025-11-20 20:46:59.248 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 21:00:18.254 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 21:00:18.402 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 21:00:18.404 +01:00 [INF] Hosting environment: Development
+2025-11-20 21:00:18.405 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 21:00:24.335 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-11-20 21:05:33.779 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 21:05:33.866 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 21:05:33.867 +01:00 [INF] Hosting environment: Development
+2025-11-20 21:05:33.868 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 21:05:37.959 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-11-20 21:09:02.970 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 21:09:03.123 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 21:09:03.125 +01:00 [INF] Hosting environment: Development
+2025-11-20 21:09:03.126 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 21:09:36.780 +01:00 [ERR] Error while getting all menus.
+System.Text.Json.JsonException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. Path: $[10].category | LineNumber: 75 | BytePositionInLine: 18.
+ ---> System.Text.Json.JsonReaderException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. LineNumber: 75 | BytePositionInLine: 18.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeStringAndValidate(ReadOnlySpan`1 data, Int32 idx)
+   at System.Text.Json.Utf8JsonReader.ConsumeString()
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at FoodStack.Domain.Menu.MenuServiceFile.LoadMenuFromFileAsync(String filePath) in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 95
+   at FoodStack.Domain.Menu.MenuServiceFile.GetAllMenusAsync() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 31
+   at FoodStack.Domain.Menu.MenuController.GetMenus() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuController.cs:line 30
+2025-11-20 21:09:36.828 +01:00 [ERR] Unhandled exception while processing request.
+System.Text.Json.JsonException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. Path: $[10].category | LineNumber: 75 | BytePositionInLine: 18.
+ ---> System.Text.Json.JsonReaderException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. LineNumber: 75 | BytePositionInLine: 18.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeStringAndValidate(ReadOnlySpan`1 data, Int32 idx)
+   at System.Text.Json.Utf8JsonReader.ConsumeString()
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at FoodStack.Domain.Menu.MenuServiceFile.LoadMenuFromFileAsync(String filePath) in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 95
+   at FoodStack.Domain.Menu.MenuServiceFile.GetAllMenusAsync() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 31
+   at FoodStack.Domain.Menu.MenuController.GetMenus() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuController.cs:line 30
+   at lambda_method22(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at FoodStack.Diagnosis.ExceptionHandlingMiddleware.Invoke(HttpContext context) in B:\Solutions\FoodStack\service\FoodStack Service\Diagnosis\ExceptionHandlingMiddleware.cs:line 20
+2025-11-20 21:10:23.459 +01:00 [ERR] Error while getting all menus.
+System.Text.Json.JsonException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. Path: $[10].category | LineNumber: 75 | BytePositionInLine: 18.
+ ---> System.Text.Json.JsonReaderException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. LineNumber: 75 | BytePositionInLine: 18.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeStringAndValidate(ReadOnlySpan`1 data, Int32 idx)
+   at System.Text.Json.Utf8JsonReader.ConsumeString()
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at FoodStack.Domain.Menu.MenuServiceFile.LoadMenuFromFileAsync(String filePath) in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 95
+   at FoodStack.Domain.Menu.MenuServiceFile.GetAllMenusAsync() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 31
+   at FoodStack.Domain.Menu.MenuController.GetMenus() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuController.cs:line 30
+2025-11-20 21:10:23.496 +01:00 [ERR] Unhandled exception while processing request.
+System.Text.Json.JsonException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. Path: $[10].category | LineNumber: 75 | BytePositionInLine: 18.
+ ---> System.Text.Json.JsonReaderException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. LineNumber: 75 | BytePositionInLine: 18.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeStringAndValidate(ReadOnlySpan`1 data, Int32 idx)
+   at System.Text.Json.Utf8JsonReader.ConsumeString()
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at FoodStack.Domain.Menu.MenuServiceFile.LoadMenuFromFileAsync(String filePath) in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 95
+   at FoodStack.Domain.Menu.MenuServiceFile.GetAllMenusAsync() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 31
+   at FoodStack.Domain.Menu.MenuController.GetMenus() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuController.cs:line 30
+   at lambda_method22(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at FoodStack.Diagnosis.ExceptionHandlingMiddleware.Invoke(HttpContext context) in B:\Solutions\FoodStack\service\FoodStack Service\Diagnosis\ExceptionHandlingMiddleware.cs:line 20
+2025-11-20 21:12:06.621 +01:00 [ERR] Error while getting all menus.
+System.Text.Json.JsonException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. Path: $[10].category | LineNumber: 75 | BytePositionInLine: 18.
+ ---> System.Text.Json.JsonReaderException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. LineNumber: 75 | BytePositionInLine: 18.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeStringAndValidate(ReadOnlySpan`1 data, Int32 idx)
+   at System.Text.Json.Utf8JsonReader.ConsumeString()
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at FoodStack.Domain.Menu.MenuServiceFile.LoadMenuFromFileAsync(String filePath) in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 95
+   at FoodStack.Domain.Menu.MenuServiceFile.GetAllMenusAsync() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 31
+   at FoodStack.Domain.Menu.MenuController.GetMenus() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuController.cs:line 30
+2025-11-20 21:12:06.663 +01:00 [ERR] Unhandled exception while processing request.
+System.Text.Json.JsonException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. Path: $[10].category | LineNumber: 75 | BytePositionInLine: 18.
+ ---> System.Text.Json.JsonReaderException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. LineNumber: 75 | BytePositionInLine: 18.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeStringAndValidate(ReadOnlySpan`1 data, Int32 idx)
+   at System.Text.Json.Utf8JsonReader.ConsumeString()
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at FoodStack.Domain.Menu.MenuServiceFile.LoadMenuFromFileAsync(String filePath) in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 95
+   at FoodStack.Domain.Menu.MenuServiceFile.GetAllMenusAsync() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 31
+   at FoodStack.Domain.Menu.MenuController.GetMenus() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuController.cs:line 30
+   at lambda_method22(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at FoodStack.Diagnosis.ExceptionHandlingMiddleware.Invoke(HttpContext context) in B:\Solutions\FoodStack\service\FoodStack Service\Diagnosis\ExceptionHandlingMiddleware.cs:line 20
+2025-11-20 21:12:12.803 +01:00 [ERR] Error while getting all menus.
+System.Text.Json.JsonException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. Path: $[10].category | LineNumber: 75 | BytePositionInLine: 18.
+ ---> System.Text.Json.JsonReaderException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. LineNumber: 75 | BytePositionInLine: 18.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeStringAndValidate(ReadOnlySpan`1 data, Int32 idx)
+   at System.Text.Json.Utf8JsonReader.ConsumeString()
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at FoodStack.Domain.Menu.MenuServiceFile.LoadMenuFromFileAsync(String filePath) in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 95
+   at FoodStack.Domain.Menu.MenuServiceFile.GetAllMenusAsync() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 31
+   at FoodStack.Domain.Menu.MenuController.GetMenus() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuController.cs:line 30
+2025-11-20 21:12:12.839 +01:00 [ERR] Unhandled exception while processing request.
+System.Text.Json.JsonException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. Path: $[10].category | LineNumber: 75 | BytePositionInLine: 18.
+ ---> System.Text.Json.JsonReaderException: '0x0D' is invalid within a JSON string. The string should be correctly escaped. LineNumber: 75 | BytePositionInLine: 18.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeStringAndValidate(ReadOnlySpan`1 data, Int32 idx)
+   at System.Text.Json.Utf8JsonReader.ConsumeString()
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at FoodStack.Domain.Menu.MenuServiceFile.LoadMenuFromFileAsync(String filePath) in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 95
+   at FoodStack.Domain.Menu.MenuServiceFile.GetAllMenusAsync() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuServiceFile.cs:line 31
+   at FoodStack.Domain.Menu.MenuController.GetMenus() in B:\Solutions\FoodStack\service\FoodStack Service\Domain\Menu\MenuController.cs:line 30
+   at lambda_method22(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at FoodStack.Diagnosis.ExceptionHandlingMiddleware.Invoke(HttpContext context) in B:\Solutions\FoodStack\service\FoodStack Service\Diagnosis\ExceptionHandlingMiddleware.cs:line 20
+2025-11-20 21:12:23.980 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 21:12:24.081 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 21:12:24.083 +01:00 [INF] Hosting environment: Development
+2025-11-20 21:12:24.084 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 21:24:45.996 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 21:24:46.090 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 21:24:46.091 +01:00 [INF] Hosting environment: Development
+2025-11-20 21:24:46.092 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 21:26:24.901 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 21:26:25.044 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 21:26:25.046 +01:00 [INF] Hosting environment: Development
+2025-11-20 21:26:25.047 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-20 21:27:30.611 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-20 21:27:30.751 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-20 21:27:30.753 +01:00 [INF] Hosting environment: Development
+2025-11-20 21:27:30.753 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
