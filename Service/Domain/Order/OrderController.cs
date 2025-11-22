@@ -35,31 +35,33 @@ namespace FoodStack.Domain.Order {
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<OrderPlacementResult>> PlaceOrder([FromBody] FoodStackOrderRequest request) {
             try {
-                OrderPlacementResultErrorParametersValidation? parametersResult = this.orderService.OrderValidateRequestParameters(request);
+                OrderPlacementResult result = await this.orderService.OrderPlaceAsync(request);
 
-                if (parametersResult != null) {
-                    return this.BadRequest(parametersResult);
+                if (result is OrderPlacementResultErrorParametersValidation) {
+                    return this.BadRequest(result);
                 }
 
-                OrderPlacementResultErrorDuplication? duplicationResult = await this.orderService.OrderValidateRequestDuplicationAsync(request);
+                if (result is OrderPlacementResultErrorMealNotValid) {
+                    return this.BadRequest(result);
+                }
 
-                if (duplicationResult != null && duplicationResult.HasExistingOrder) {
-                    if (duplicationResult.IsConflict) {
-                        return this.Conflict(duplicationResult);
-                    } else {
-                        return this.Ok(duplicationResult);
+                if (result is OrderPlacementResultErrorDuplication duplication) {
+                    if (duplication.IsConflict) {
+                        return this.Conflict(duplication);
                     }
+
+                    if (duplication.HasExistingOrder) {
+                        return this.Ok(duplication);
+                    }
+
+                    return this.BadRequest(duplication);
                 }
 
-                OrderPlacementResult placeResult = await this.orderService.OrderPlaceAsync(request);
-
-                if (placeResult is OrderPlacementResultSuccess) {
-                    return this.Ok(placeResult);
-                } else if (placeResult is OrderPlacementResultErrorMealNotValid) {
-                    return this.BadRequest(placeResult);
-                } else {
-                    return this.BadRequest(placeResult);
+                if (result is OrderPlacementResultSuccess) {
+                    return this.Ok(result);
                 }
+
+                return this.BadRequest(result);
             } catch (Exception exception) {
                 this.logger.LogError(exception, "Unexpected error while placing order.");
                 throw;

@@ -156,7 +156,7 @@ namespace FoodStack.Domain.Order {
         public async Task<OrderPlacementResultErrorDuplication?> OrderValidateRequestDuplicationAsync(FoodStackOrderRequest request) {
             try {
                 if (request == null) {
-                    return null;
+                    throw new ArgumentNullException(nameof(request));
                 }
 
                 if (string.IsNullOrWhiteSpace(request.RequestID)) {
@@ -196,6 +196,22 @@ namespace FoodStack.Domain.Order {
                     OrderPlacementResultErrorParametersValidation invalidResult = new OrderPlacementResultErrorParametersValidation();
                     invalidResult.Message = "Order request is invalid.";
                     return invalidResult;
+                }
+
+                // Parameter validation (same logic as controller uses before calling this method).
+                OrderPlacementResultErrorParametersValidation? parametersResult = this.OrderValidateRequestParameters(request);
+
+                if (parametersResult != null) {
+                    return parametersResult;
+                }
+
+                // Duplication validation (same logic as controller uses before calling this method).
+                OrderPlacementResultErrorDuplication? duplicationResult = await this.OrderValidateRequestDuplicationAsync(request);
+
+                if (duplicationResult != null && duplicationResult.HasExistingOrder) {
+                    // For the service-level API we always return the duplication result,
+                    // the controller decides whether it becomes 200 or 409.
+                    return duplicationResult;
                 }
 
                 IReadOnlyList<FoodStackMenu> menus = await this.menuService.GetAllMenusAsync();
@@ -266,6 +282,7 @@ namespace FoodStack.Domain.Order {
                 throw;
             }
         }
+
 
         private async Task<FoodStackOrder?> InternalGetOrderByRequestIDAsync(string requestID) {
             try {
