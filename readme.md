@@ -12,10 +12,10 @@ This project is a demonstration implementation created in response to the assign
 - [1. Overview](#1-overview)
 - [2. Backend](#2-backend)
   - [2.1 Technologies & Architecture](#21-technologies--architecture)
-  - [2.2 Replaceable infrastructure](#replaceable-infrastructure)
-  - [2.3 Domain Models & API Design](#22-domain-models--api-design)
-  - [2.4 Endpoints](#23-endpoints)
-  - [2.5 High-Load / Degraded Behavior Simulation](#24-high-load--degraded-behavior-simulation)
+  - [2.2 Replaceable infrastructure](#22-replaceable-infrastructure)
+  - [2.3 Domain Models & API Design](#23-domain-models--api-design)
+  - [2.4 Endpoints](#24-endpoints)
+  - [2.5 High-Load / Degraded Behavior Simulation](#25-high-load--degraded-behavior-simulation)
 - [3. Frontend](#3-frontend)
   - [3.1 Technologies & Structure](#31-technologies--structure)
   - [3.2 Routes, Data Adapters & Cart](#32-routes-data-adapters--cart)
@@ -303,7 +303,7 @@ These are not required by the assignment but added to show extensibility and UX 
 #### 3.3.1 Cart popup
 
 - Clicking “Items in cart” opens a popup under the header.
-- Displayed per cart item
+- Displayed per cart item: thumbnail, name, menu name, quantity controls (`+` / `−`) and a remove action.
 
 #### 3.3.2 Theme picker
 
@@ -351,13 +351,17 @@ Together with the simulated middleware, this gives a complete, observable high-l
 
 ### Running tests
 
-From the solution root (or the test project folder):
+You can run the tests in two ways:
 
-    dotnet test
+1. Via helper script (from the repository root):
 
-Or, if needed:
+       test-host.cmd
 
-    dotnet test .\tests\FoodStack.Service.Test\FoodStack.Service.Test.csproj
+2. Via Visual Studio Test Explorer:
+
+   - Open the solution in Visual Studio.
+   - Build the solution.
+   - Open **Test Explorer** and run all tests in **FoodStack Service - Test**.
 
 ---
 
