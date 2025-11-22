@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\service\FoodStack Service\FoodStack Service.csproj" />
+    <ProjectReference Include="..\Service\FoodStack Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
