@@ -591,7 +591,7 @@ export default function MenuPageClient(props: MenuPageClientProps): JSX.Element 
                                                 className={`${styles.quantityButton} ani`}
                                                 onClick={(): void => handleDecrement(item.id)}
                                             >
-                                                -
+                                                <span className="fa fa-minus"></span>
                                             </button>
                                             <span className={styles.quantityValue}>
                                                 {item.quantity}
@@ -601,7 +601,7 @@ export default function MenuPageClient(props: MenuPageClientProps): JSX.Element 
                                                 className={`${styles.quantityButton} ani`}
                                                 onClick={(): void => handleIncrement(item.id)}
                                             >
-                                                +
+                                                <span className="fa fa-plus"></span>
                                             </button>
                                         </div>
                                     </div>
@@ -692,7 +692,7 @@ export default function MenuPageClient(props: MenuPageClientProps): JSX.Element 
                                                         className={`${styles.quantityButton} ani`}
                                                         onClick={(e): void => { e.stopPropagation(); handleDecrement(meal.id); }}
                                                     >
-                                                        -
+                                                        <span className="fa fa-minus"></span>
                                                     </button>
                                                     <span className={styles.quantityValue}>{quantity}</span>
                                                     <button
@@ -700,7 +700,7 @@ export default function MenuPageClient(props: MenuPageClientProps): JSX.Element 
                                                         className={`${styles.quantityButton} ani`}
                                                         onClick={(e): void => { e.stopPropagation(); handleIncrement(meal.id); }}
                                                     >
-                                                        +
+                                                        <span className="fa fa-plus"></span>
                                                     </button>
                                                 </div>
                                             </>
