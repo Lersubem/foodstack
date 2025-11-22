@@ -5,6 +5,8 @@ A small full-stack prototype of a food-ordering platform built with:
 - Backend: C# / .NET 8 (ASP.NET Core)
 - Frontend: React, Next.js (App Router) and TypeScript
 
+This project is a demonstration implementation created in response to the assignment described in [assignment](assignment.md).
+
 ## Table of Contents
 
 - [1. Overview](#1-overview)
