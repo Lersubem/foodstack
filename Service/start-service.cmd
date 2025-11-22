@@ -23,6 +23,8 @@ set ASPNETCORE_URLS=http://localhost:%PORT%
 echo Starting FoodStack on http://localhost:%PORT%
 echo (Press Ctrl+C to stop)
 
+dotnet restore
+dotnet build
 dotnet run
 
 endlocal

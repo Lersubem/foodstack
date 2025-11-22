@@ -180,3 +180,31 @@ System.Threading.Tasks.TaskCanceledException: A task was canceled.
 2025-11-22 16:33:54.326 +01:00 [INF] Application started. Press Ctrl+C to shut down.
 2025-11-22 16:33:54.327 +01:00 [INF] Hosting environment: Development
 2025-11-22 16:33:54.328 +01:00 [INF] Content root path: B:\Solutions\FoodStack\service\FoodStack Service
+2025-11-22 17:36:46.181 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-22 17:36:46.215 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 17:36:46.216 +01:00 [INF] Hosting environment: Development
+2025-11-22 17:36:46.217 +01:00 [INF] Content root path: B:\Solutions\FoodStack\Service
+2025-11-22 17:36:57.456 +01:00 [INF] Simulating queued request for 19172 ms on /api/orders
+2025-11-22 18:20:51.528 +01:00 [INF] Application is shutting down...
+2025-11-22 18:22:15.874 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-22 18:22:15.907 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 18:22:15.908 +01:00 [INF] Hosting environment: Development
+2025-11-22 18:22:15.909 +01:00 [INF] Content root path: B:\Solutions\FoodStack\Service
+2025-11-22 18:22:21.614 +01:00 [INF] Application is shutting down...
+2025-11-22 18:22:27.048 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-22 18:22:27.081 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 18:22:27.082 +01:00 [INF] Hosting environment: Development
+2025-11-22 18:22:27.083 +01:00 [INF] Content root path: B:\Solutions\FoodStack\Service
+2025-11-22 18:24:34.295 +01:00 [INF] Application is shutting down...
+2025-11-22 18:24:50.377 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-22 18:24:50.419 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 18:24:50.420 +01:00 [INF] Hosting environment: Development
+2025-11-22 18:24:50.421 +01:00 [INF] Content root path: B:\Solutions\FoodStack\Service
+2025-11-22 18:26:38.630 +01:00 [INF] Simulating partial response and abort on /api/orders
+2025-11-22 18:26:38.652 +01:00 [INF] Simulating partial response and abort on /api/orders
+2025-11-22 18:26:39.563 +01:00 [INF] Simulating queued request for 25004 ms on /api/orders
+2025-11-22 18:29:52.688 +01:00 [INF] Application is shutting down...
+2025-11-22 18:30:16.286 +01:00 [INF] Now listening on: http://localhost:5124
+2025-11-22 18:30:16.318 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 18:30:16.319 +01:00 [INF] Hosting environment: Development
+2025-11-22 18:30:16.320 +01:00 [INF] Content root path: B:\Solutions\FoodStack\Service

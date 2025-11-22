@@ -381,32 +381,45 @@ You can:
 ## 6. Running the Application Locally
 
 ### Prerequisites
+- .NET SDK 8.0+
+- Node.js (LTS) and npm
 
-- .NET SDK 8.0+.
-- Node.js (LTS) and npm.
+Repository layout:
+- `Client/` – frontend (Next.js)
+- `Service/` – backend (ASP.NET Core API)
 
-Assumed structure:
+### 6.1 Start using scripts
 
-- FoodStack.Server/ – backend.
-- FoodStack.Client/ – frontend (Next.js).
+From the repository root:
 
-### Backend (API)
+    start-host.cmd
 
-    cd FoodStack.Server
+This runs:
+
+- `Client\start-client.cmd`
+- `Service\start-service.cmd`
+
+You can also run them separately:
+
+    Client\start-client.cmd
+    Service\start-service.cmd
+
+### 6.2 Run projects manually
+
+Backend (Service) – CLI:
+
+    cd Service
     dotnet restore
     dotnet build
     dotnet run
 
-- The app starts on a local port (e.g. http://localhost:5124)
-- Swagger (development only) is available at:
+Frontend (Client) – CLI:
 
-    http://localhost:5124/swagger
-
-### Frontend (Next.js)
-
-    cd FoodStack.Client
+    cd Client
     npm install
     npm run dev
 
-- Dev server: http://localhost:3000
-- The frontend adapters are configured so that in development they target the local backend, and in production they target `/foodstack/service/api/...` on the same host.
+Optional (Visual Studio):
+
+- Open `Service` in Visual Studio and run the API.
+- Open `Client` in your editor/IDE and run `npm run dev`.
