@@ -77,7 +77,9 @@ export default function MenuPageClient(props: MenuPageClientProps): JSX.Element 
     const [showHighLoadMessage, setShowHighLoadMessage] = useState<boolean>(false);
     const [error, setError] = useState<UiErrorState | null>(null);
     const [menuIDs, setMenuIDs] = useState<string[]>([]);
-    const [menus, setMenus] = useState<Menu[]>(props.menu.menuID === "" ? [] : [props.menu]);
+    const [menus, setMenus] = useState<Menu[]>(
+        props.menu == null || props.menu.menuID === "" ? [] : [props.menu]
+    );
     const [isLoadingMenus, setIsLoadingMenus] = useState<boolean>(false);
     const [isCartPopupVisible, setIsCartPopupVisible] = useState<boolean>(false);
     const router = useRouter();

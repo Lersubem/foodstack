@@ -30,12 +30,6 @@
 		<None Include="wwwroot\assets\burger_sandwich_PNG96778.png" />
 		<None Include="wwwroot\assets\burger_sandwich_PNG96779.png" />
 		<None Include="wwwroot\assets\burger_sandwich_PNG96781.png" />
-		<None Include="wwwroot\assets\doritos_PNG47.png" />
-		<None Include="wwwroot\assets\doritos_PNG48.png" />
-		<None Include="wwwroot\assets\doritos_PNG49.png" />
-		<None Include="wwwroot\assets\doritos_PNG51.png" />
-		<None Include="wwwroot\assets\doritos_PNG54.png" />
-		<None Include="wwwroot\assets\doritos_PNG55.png" />
 		<None Include="wwwroot\assets\falafel_PNG52.png" />
 		<None Include="wwwroot\assets\falafel_PNG53.png" />
 		<None Include="wwwroot\assets\falafel_PNG54.png" />
@@ -48,12 +42,6 @@
 		<None Include="wwwroot\assets\mug_coffee_PNG97435.png" />
 		<None Include="wwwroot\assets\mug_coffee_PNG97436.png" />
 		<None Include="wwwroot\assets\mug_coffee_PNG97437.png" />
-		<None Include="wwwroot\assets\pasta_PNG89.png" />
-		<None Include="wwwroot\assets\pasta_PNG90.png" />
-		<None Include="wwwroot\assets\pasta_PNG91.png" />
-		<None Include="wwwroot\assets\pasta_PNG93.png" />
-		<None Include="wwwroot\assets\pasta_PNG94.png" />
-		<None Include="wwwroot\assets\pasta_PNG95.png" />
 		<None Include="wwwroot\assets\pizza_PNG7097.png" />
 		<None Include="wwwroot\assets\pizza_PNG7099.png" />
 		<None Include="wwwroot\assets\pizza_PNG7100.png" />
@@ -66,12 +54,6 @@
 		<None Include="wwwroot\assets\soup_PNG104.png" />
 		<None Include="wwwroot\assets\soup_PNG98.png" />
 		<None Include="wwwroot\assets\soup_PNG99.png" />
-		<None Include="wwwroot\assets\wedding_cake_PNG99008.png" />
-		<None Include="wwwroot\assets\wedding_cake_PNG99009.png" />
-		<None Include="wwwroot\assets\wedding_cake_PNG99010.png" />
-		<None Include="wwwroot\assets\wedding_cake_PNG99012.png" />
-		<None Include="wwwroot\assets\wedding_cake_PNG99013.png" />
-		<None Include="wwwroot\assets\wedding_cake_PNG99020.png" />
 	</ItemGroup>
 
 </Project>

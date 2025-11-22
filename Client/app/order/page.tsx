@@ -1,7 +1,7 @@
 // app/order/page.tsx
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import type { JSX } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import styles from "./page.module.scss";
@@ -22,7 +22,7 @@ type OrderView = {
     totalAmount: number;
 };
 
-export default function OrderPage(): JSX.Element | null {
+function OrderPageContent(): JSX.Element | null {
     const router = useRouter();
     const searchParams = useSearchParams();
 
@@ -165,5 +165,13 @@ export default function OrderPage(): JSX.Element | null {
                 Place another order
             </button>
         </main>
+    );
+}
+
+export default function OrderPage(): JSX.Element {
+    return (
+        <Suspense fallback={null}>
+            <OrderPageContent />
+        </Suspense>
     );
 }
