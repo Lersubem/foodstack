@@ -16,26 +16,31 @@ namespace FoodStack.Test {
 
             Directory.CreateDirectory(menuDirectoryPath);
 
-            string baguetteJson = @"
-[
-  {
-    ""id"": ""baguette-16"",
-    ""name"": ""Classic French Baguette"",
-    ""imageUrl"": ""/img/baguette-16.png"",
-    ""category"": ""baguette"",
-    ""price"": 3.50
-  },
-  {
-    ""id"": ""baguette-20"",
-    ""name"": ""Sesame Seed Baguette"",
-    ""imageUrl"": ""/img/baguette-20.png"",
-    ""category"": ""baguette"",
-    ""price"": 4.00
-  }
-]";
+            string dominosJson = @"
+{
+  ""menuID"": ""dominos"",
+  ""menuName"": ""Dominos"",
+  ""meals"": [
+    {
+      ""id"": ""dominos-olv"",
+      ""name"": ""Olive Pizza"",
+      ""imageUrl"": ""assets/dominos_PNG31.png"",
+      ""category"": ""dominos"",
+      ""price"": 3.25
+    },
+    {
+      ""id"": ""dominos-mini"",
+      ""name"": ""Mini Snack Pizza"",
+      ""imageUrl"": ""assets/dominos_PNG4.png"",
+      ""category"": ""dominos"",
+      ""price"": 1.95
+    }
+  ]
+}
+";
 
-            string filePath = Path.Combine(menuDirectoryPath, "baguette.json");
-            File.WriteAllText(filePath, baguetteJson);
+            string filePath = Path.Combine(menuDirectoryPath, "dominos.json");
+            File.WriteAllText(filePath, dominosJson);
 
             MenuServiceFile service = new MenuServiceFile(menuDirectoryPath);
 
@@ -53,10 +58,10 @@ namespace FoodStack.Test {
             Assert.Single(menus);
 
             FoodStackMenu menu = menus[0];
-            Assert.Equal("baguette", menu.MenuID);
+            Assert.Equal("dominos", menu.MenuID);
             Assert.NotNull(menu.Meals);
             Assert.Equal(2, menu.Meals.Count);
-            Assert.Equal("baguette-16", menu.Meals[0].ID);
+            Assert.Equal("dominos-olv", menu.Meals[0].ID);
         }
 
         [Fact]
@@ -64,10 +69,10 @@ namespace FoodStack.Test {
             string menuDirectoryPath;
             MenuServiceFile service = this.CreateServiceWithSingleMenu(out menuDirectoryPath);
 
-            FoodStackMenu? menu = await service.GetMenuAsync("baguette");
+            FoodStackMenu? menu = await service.GetMenuAsync("dominos");
 
             Assert.NotNull(menu);
-            Assert.Equal("baguette", menu!.MenuID);
+            Assert.Equal("dominos", menu.MenuID);
             Assert.Equal(2, menu.Meals.Count);
         }
 
@@ -90,7 +95,7 @@ namespace FoodStack.Test {
 
             Assert.NotNull(ids);
             Assert.Single(ids);
-            Assert.Equal("baguette", ids[0]);
+            Assert.Equal("dominos", ids[0]);
         }
     }
 }
