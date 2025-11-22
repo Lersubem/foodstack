@@ -222,7 +222,7 @@ For each matching request, it randomly picks one of these scenarios:
 3. Normal behavior (remaining ~30%)
    - Simply calls the next middleware and returns the real response without simulation.
 
-This middleware is intentionally mentioned in both the architecture section and here to make sure the reviewer sees the explicit handling of high-load and bad-network scenarios.
+This makes the high-load and bad-network behavior explicit and easy to observe.
 
 ---
 
