@@ -535,7 +535,9 @@ export default function MenuPageClient(props: MenuPageClientProps): JSX.Element 
                         onClick={handleCartSummaryClick}
                         disabled={isSubmitting || items.length === 0}
                     >
-                        <span className={styles.cartLabel}>Items in cart:</span>
+                        <span className={styles.cartLabel}>
+                            <span className="fa fa-cart-shopping"></span>
+                        </span>
                         <span className={styles.cartCount}>{totalQuantity}</span>
                     </button>
                 </header>
